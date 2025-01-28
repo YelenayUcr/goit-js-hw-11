@@ -26,7 +26,6 @@ form.addEventListener('submit', function (e) {
     return;
   }
 
-  // Yeni bir arama yapıldığında galeriyi temizle ve sayfayı sıfırla
   gallery.innerHTML = '';
   page = 1;
   loadImages(query, page);
