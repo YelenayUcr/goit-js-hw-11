@@ -1,36 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css"
-    />
-    
-  </head>
-  <body>
-    <div class="container">
-      <form id="search-form">
-        <input
-          type="text"
-          name="query"
-          id="query"
-          placeholder="Search images..."
-        />
-        <button type="submit">Search</button>
-      </form>
-      <span class="loader"></span>
-      <div id="loader" class="hidden"></div>
-      <div class="gallery"></div>
-    </div>
-    <script type="module" src="./main.js"></script>
-    <script type="module" src="./data/images.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Search App</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css">
+</head>
+<body>
+  <header>
+    <form id="search-form">
+      <input type="text" name="query" placeholder="Search for images..." required>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <section class="gallery"></section>
+    <button id="load-more" class="hidden">Load More</button>
+    <div id="loader" class="hidden">Loading...</div>
+  </main>
+
+  <script type="module" src="./js/init.js"></script>
+</body>
 </html>
