@@ -23,7 +23,12 @@ form input {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-
+input:active{
+color: #007bff;
+}
+.loader{
+  text-align: center;
+}
 form button {
   padding: 8px 12px;
   background-color: #007bff;
@@ -80,4 +85,11 @@ form button {
   border-radius: 4px;
   cursor: pointer;
   margin: 20px;
+ 
+}
+#load-more:hover{
+  background-color: #6C8CFF;
+}
+.search-button:hover{
+  background-color: #6C8CFF;
 }

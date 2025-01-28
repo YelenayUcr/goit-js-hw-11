@@ -11,15 +11,16 @@
 <body>
   <header>
     <form id="search-form">
-      <input type="text" name="query" placeholder="Search for images..." required>
-      <button type="submit">Search</button>
+      <input class="input-search" type="text" name="query" placeholder="Search for images..." required>
+      <button class="search-button" type="submit">Search</button>
     </form>
   </header>
 
   <main>
     <section class="gallery"></section>
     <button id="load-more" class="hidden">Load More</button>
-    <div id="loader" class="hidden">Loading...</div>
+    <div id="loader" class="hidden">Loading images, please wait...</div>
+     
   </main>
 
   <script type="module" src="./js/init.js"></script>

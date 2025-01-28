@@ -44,7 +44,7 @@ function loadImages(query, page) {
       if (data.hits.length === 0) {
         iziToast.warning({
           title: 'No Results',
-          message: 'No images found. Try another search!',
+          message: 'Sorry, there are no images matching your search query. Please, try again!',
         });
         loadMoreBtn.classList.add('hidden');
       } else {
