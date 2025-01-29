@@ -43,6 +43,7 @@ form button {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 16px;
   padding: 20px;
+  width: 100%;
 }
 
 .gallery img {
@@ -52,7 +53,7 @@ form button {
 .info p{
   margin: 0;
   padding: 10px;
-  background-color:lightgrey
+  background-color:lightgrey;
 
 }
 .info {
