@@ -1,4 +1,4 @@
-import { fetchImages } from './images.js';
+import { fetchImages } from './js/images.js';
 import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
 

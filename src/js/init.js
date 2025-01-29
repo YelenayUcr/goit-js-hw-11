@@ -1,2 +1,2 @@
 window.global ||= window;
-import './main.js';
+import '../main.js';
