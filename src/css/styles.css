@@ -44,16 +44,19 @@ form button {
   gap: 16px;
   padding: 20px;
   width: 100%;
+
 }
 
 .gallery img {
   width: 100%;
   border-radius: 8px;
+
+
 }
 .info p{
   margin: 0;
   padding: 10px;
-  background-color:lightgrey;
+  background-color:lavender;
 
 }
 .info {
