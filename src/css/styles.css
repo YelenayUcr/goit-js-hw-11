@@ -3,18 +3,21 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 header {
   padding: 10px;
   background-color: #f8f9fa;
   text-align: center;
+
 }
 
 form {
   display: flex;
   justify-content: center;
   gap: 10px;
+
 }
 
 form input {
@@ -43,7 +46,7 @@ form button {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 16px;
   padding: 20px;
-  width: 100%;
+
 
 }
 
